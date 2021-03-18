@@ -1,0 +1,146 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+.headerpart{
+   width:auto;
+   height:180px;
+   align:center;
+   border-style:groove;
+   background-color:rgb(255, 102, 0);
+   background-image:url('img/headerImage.jpg');
+   background-repeat:no-repeat;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+nav .logo{
+	margin-left:50px;
+}
+.slider.btn{
+	margin-top: 50px;
+	padding:  50px;
+	border-radius: 1%;
+}
+#navigation{
+	margin-top:10px;
+	color:black;
+	margin-bottom: 0px;
+}
+
+
+#principal_image,#director-image,#md-image{
+	width: 300px;
+    height: 350px;
+    border:2px #e0e0e0 grey lighten-2;
+    padding:  20px;
+    box-shadow: inset 0 0 0 15px #e0e0e0;
+    
+}
+.header{
+	font-size:30px;
+	margin-top:0px;
+	
+	background:brown;
+	color:white;
+	padding:20px;
+}
+.moving_body{
+	padding:5px;
+	height:400px;
+}
+
+.m-par{
+	text-allign:center;
+	font-color:red;
+	padding:2px;
+	border-bottom:1px solid #afafaf;
+}
+.notification-content{
+	margin-left: 5px;
+	width:300px;
+	height:400px;
+	background:white;
+	color:red;
+	box-shadow: 1px 1px 2px 5px #333;
+	border-radius:5px;
+	  margin-right:10px;
+    margin: 20px 20px;
+}
+.nevigationbar2{
+	background:brown;
+	border-radius:5px;
+	color:white;
+}
+.facility-content{
+	 width:600;
+	 height:400;
+	 backgound: light blue;
+	 color:white;
+	 text:bold;
+	 }
+#zoom {
+  padding: 10px;
+  transition: transform .2s; /* Animation */
+  width: 500px;
+  height: 350px;
+  margin: 0px 0px;
+}
+
+#zoom:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+#view-event-btn,#view-notice-btn{
+ font-size: 10px;
+  background-color: brown; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+ 
+    ul li{
+       display: block;
+       position: relative;
+       margin: 0px 0px;
+    }
+    ul li a{
+        display: block;
+        color: white;
+    }
+  ul li a:hover{
+        color: white;
+        background: #bf360c; 
+    }
+    ul li ul.dropdown{
+        margin: 0px;
+        background: #e65100;
+        display: none;
+        position: absolute;
+        z-index: 999;
+        left: 0;   
+    }
+    ul li:hover ul.dropdown{
+        display: block;	/* Display the dropdown */ 
+    }
+    ul li ul.dropdown li{
+        display: block;
+          width: 100%;
+    }
